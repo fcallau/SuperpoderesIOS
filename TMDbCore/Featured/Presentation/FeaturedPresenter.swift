@@ -44,7 +44,7 @@ final class FeaturedPresenter {
 	}
 
 	func didSelect(show: Show) {
-		detailNavigator.showDetail(withIdentifier: show.identifier,
+        detailNavigator.showDetail(withIdentifier: show.identifier,
 		                           mediaType: .show)
 	}
 

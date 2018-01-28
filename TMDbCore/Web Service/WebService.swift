@@ -59,9 +59,9 @@ final internal class WebService {
 
 private extension Reactive where Base: URLSession {
 	func data(request: URLRequest) -> Observable<Data> {
-		return Observable.create { observer in
+        return Observable.create { observer in
 			let task = self.base.dataTask(with: request) { data, response, error in
-				if let error = error {
+                if let error = error {
 					observer.onError(error)
 				} else {
 					guard let httpResponse = response as? HTTPURLResponse else {
@@ -70,7 +70,7 @@ private extension Reactive where Base: URLSession {
 
 					if 200 ..< 300 ~= httpResponse.statusCode {
 						if let data = data {
-							observer.onNext(data)
+                            observer.onNext(data)
 						}
 						observer.onCompleted()
 					} else {

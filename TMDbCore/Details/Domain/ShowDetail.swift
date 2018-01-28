@@ -16,6 +16,8 @@ struct ShowDetail: Decodable {
     let overview: String?
     let posterPath: String?
     let credits: Credits?
+    let genres: [GenreInfo]?
+    let homepage: String?
     
     private enum CodingKeys: String, CodingKey {
         case backdropPath = "backdrop_path"
@@ -25,5 +27,7 @@ struct ShowDetail: Decodable {
         case overview
         case posterPath = "poster_path"
         case credits
+        case genres
+        case homepage
     }
 }

@@ -10,16 +10,6 @@ import Foundation
 
 extension DetailHeader {
     init(person: PersonDetail, dateFormatter: DateFormatter) {
-//        title = movie.title
-//        posterPath = movie.posterPath
-//        backdropPath = movie.backdropPath
-//
-//        let releaseDate = movie.releaseDate.flatMap { dateFormatter.date(from: $0)}
-//        let year = (releaseDate?.year).map { String($0) }
-//        let duration = "\(movie.runtime) min."
-//
-//        metadata = [year, duration].flatMap { $0 }.joined(separator: " - ")
-        
         title = person.name!
         
         // Select the first image with aspect ratio 16/9 from taggedImages and use it like backdrop

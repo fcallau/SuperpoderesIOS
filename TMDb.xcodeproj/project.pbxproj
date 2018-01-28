@@ -12,6 +12,7 @@
 		0F0C5F73201CAF8100559179 /* PersonPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0C5F72201CAF8100559179 /* PersonPresenter.swift */; };
 		0F0C5F75201CBAC700559179 /* DetailHeader+PersonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0C5F74201CBAC700559179 /* DetailHeader+PersonDetail.swift */; };
 		0F0C5F77201CCC1600559179 /* TaggedImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0C5F76201CCC1600559179 /* TaggedImages.swift */; };
+		0F4AE8CD201E33C700389F77 /* GenreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AE8CC201E33C700389F77 /* GenreInfo.swift */; };
 		0F741C1A201D4F7900147D20 /* DetailHeader+ShowDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F741C19201D4F7900147D20 /* DetailHeader+ShowDetail.swift */; };
 		0FECD8EC201D365B007A8585 /* ShowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FECD8EB201D365B007A8585 /* ShowPresenter.swift */; };
 		0FECD8EE201D3698007A8585 /* ShowRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FECD8ED201D3698007A8585 /* ShowRepository.swift */; };
@@ -173,6 +174,7 @@
 		0F0C5F72201CAF8100559179 /* PersonPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonPresenter.swift; sourceTree = "<group>"; };
 		0F0C5F74201CBAC700559179 /* DetailHeader+PersonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailHeader+PersonDetail.swift"; sourceTree = "<group>"; };
 		0F0C5F76201CCC1600559179 /* TaggedImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaggedImages.swift; sourceTree = "<group>"; };
+		0F4AE8CC201E33C700389F77 /* GenreInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreInfo.swift; sourceTree = "<group>"; };
 		0F741C19201D4F7900147D20 /* DetailHeader+ShowDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailHeader+ShowDetail.swift"; sourceTree = "<group>"; };
 		0FECD8EB201D365B007A8585 /* ShowPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPresenter.swift; sourceTree = "<group>"; };
 		0FECD8ED201D3698007A8585 /* ShowRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRepository.swift; sourceTree = "<group>"; };
@@ -324,6 +326,7 @@
 				0F0C5F76201CCC1600559179 /* TaggedImages.swift */,
 				0FECD8EF201D489E007A8585 /* ShowDetail.swift */,
 				0F741C19201D4F7900147D20 /* DetailHeader+ShowDetail.swift */,
+				0F4AE8CC201E33C700389F77 /* GenreInfo.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -916,6 +919,7 @@
 				998AD7DC1F7FF5B700D3A222 /* UICollectionView+Reusable.swift in Sources */,
 				997A441D1F7AA3F00094E928 /* SearchResultCell.swift in Sources */,
 				99B9A33D1F73F39B004F883E /* WebService.swift in Sources */,
+				0F4AE8CD201E33C700389F77 /* GenreInfo.swift in Sources */,
 				0F0C5F73201CAF8100559179 /* PersonPresenter.swift in Sources */,
 				998AD7DA1F7FEFD400D3A222 /* PosterStripPresenter.swift in Sources */,
 				9989A1231F74EE8500D8DCA7 /* ImageRepository.swift in Sources */,

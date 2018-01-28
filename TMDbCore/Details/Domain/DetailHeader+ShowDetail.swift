@@ -16,10 +16,9 @@ extension DetailHeader {
         
         let firstAirDate = show.firstAirDate.flatMap { dateFormatter.date(from: $0)}
         let year = (firstAirDate?.year).map { String($0) }
-        // let duration = "\(show.runtime) min."
+        let genre = show.genres?.first?.name
         
-        // metadata = [year, duration].flatMap { $0 }.joined(separator: " - ")
-        metadata = [year].flatMap { $0 }.joined(separator: " - ")
+        metadata = [year, genre].flatMap { $0 }.joined(separator: " . ")
     }
 }
 
